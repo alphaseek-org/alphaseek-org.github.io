@@ -1,1 +1,1 @@
-The homepage of alphaseek.org!
+The homepage of AlphaSeek.
