@@ -1,62 +1,66 @@
 ## 量化策略简报
 
 ### 市场环境
-美国"类滞胀"（CPI 4.2% + GDP放缓至1.6%）叠加伊朗地缘风险溢价，FOMC 6月17日为关键催化剂。AI产业正从"训练基建"向"推理部署"、从"补贴换规模"向"商业化变现"双轮驱动转型。
+全球宏观"滞胀分化"：美国温和增长（Q1 GDP 1.6%）+通胀粘性（PCE 4.5%），美联储按兵不动，6/16-17 FOMC为本周核心变量；中国通缩承压（CPI -0.1%，PPI -3.3%）+政策宽松，人民币测试7.30压力；欧元区陷入收缩（Q1 GDP -0.2%），ECB被迫加息至2.40%。AI产业独立于宏观逆风加速扩张——美国AI订阅价格战开启、物理AI爆发（Prometheus $120亿融资），中国DeepSeek海外份额飙升（Vercel 1%→17%）、Token日调用140万亿，全球AI capex超级周期持续。
+
+### 产业成熟度对比
+| 产业层 | 中国 | 美国 | 全球 | 差距趋势 |
+|--------|------|------|------|----------|
+| 能源 | 成长期 | 成长期 | 成长期 | 趋同 |
+| 硬件 | 成长期 | 成熟期 | 成长期→成熟期 | 中国追赶 |
+| 软件 | 成长期 | 成长期→成熟期 | 成熟期(云) | 美国领先 |
+| 模型 | 成长期 | 成长期 | 成长期(分化) | 中美双极 |
+| 应用 | 成长期早期 | 成长期 | 成长期早期 | 美国领先 |
 
 ### 核心观点
-通胀韧性支撑能源与价值板块，AI推理芯片与端侧部署为结构性机会，FOMC鹰派风险压制科技成长估值上限。
+AI capex超级周期独立于宏观逆风运行，硬件供应链（HBM/先进制程）确定性最强；模型层商品化加速，价值向应用层和物理AI迁移；中东和谈进展是短期最大风险偏好变量。
 
 ### 投资建议
 
 #### 高确信度
 
-**Intel (INTC)** - 做多 - 确信度4 - 仓位5-7%
-- 目标/止损: $45 / $28
-- 逻辑: Crescent Island推理芯片以低成本+风冷方案切入AI增速最快细分市场，美国政府持股10%提供战略底部，年内涨200%+仍有推理TAM扩张空间。
+**SK海力士/三星电子（HBM存储）** — 做多 — 确信度5 — 仓位8%
+- 目标/止损: +25% / -10%
+- 逻辑: HBM供不应求至2026年底，HBM4下半年量产，SK海力士HBM3E已被NVIDIA预订至年底。AI算力扩张最直接受益，宏观脱敏。
 
-**能源板块 (XLE)** - 做多 - 确信度4 - 仓位5-7%
-- 目标/止损: $105 / $88
-- 逻辑: CPI 4.2%中能源贡献超60%，伊朗冲突维持油价高位，晚周期历史上有利于能源板块盈利。
+**中国AI算力链（昇腾/光通信/数据中心）** — 做多 — 确信度4 — 仓位6%
+- 目标/止损: +20% / -8%
+- 逻辑: 工信部"AI+信息通信"政策+DeepSeek出海驱动Token消耗140万亿/日+CPU需求一年内5倍增长。韶关970亿算力投资落地，通缩环境降低基建成本。
 
-**Google (GOOGL)** - 做多 - 确信度4 - 仓位5%
-- 目标/止损: $220 / $175
-- 逻辑: Gemini 3.5系列+Gemma 4+DiffusionGemma密集发布展示多模态领先，Apple Siri AI合作验证云AI地位，估值相对AI同业合理。
+**美国数据中心/能源基础设施REITs** — 做多 — 确信度4 — 仓位5%
+- 目标/止损: +15% / -7%
+- 逻辑: Amazon 48小时融资$315亿，xAI月算力租约$21.5亿（Anthropic+Google）。AI capex结构性需求不受短期利率波动影响。
 
 #### 中确信度
 
-**中国AI/半导体 (科创50ETF)** - 做多 - 确信度3
-- 逻辑: DeepSeek国际认可+华为昇腾推理份额提升+国产替代主题，但宏观走弱与出口管制限制上行空间。
+**鸿蒙生态链** — 做多 — 确信度3 — 仓位3%
+- 逻辑: 6600万终端+全球化信号（海外元服务1.7万）+Agent框架2.0。HDC 2026明确"走向全球"，欧洲品牌已接入。商业化尚早但方向明确。
 
-**NVIDIA (NVDA)** - 减配/中性 - 确信度3
-- 逻辑: 训练市场仍主导但推理市场竞争加剧（Intel Crescent Island），训练→推理轮动可能侵蚀NVIDIA TAM份额，估值偏高。
+**印度IT服务（Infosys/TCS）** — 做多 — 确信度3
+- 逻辑: IndiaAI Mission $12.5亿算力基建+IT服务AI化结构性增长。FY2026 GDP 7.7%提供宏观支撑，估值相对美中AI标的折价明显。
 
 #### 观察
-- OpenAI IPO ($8500亿): S&P 500拒绝纳入未盈利AI公司，被动基金流入受限，等待定价细节。
-- SpaceX IPO ($1.75万亿): Morningstar独立估值仅$7800亿，显著倒挂风险。
+
+- **ASML**: EUV垄断但中国出口管制风险；中东和谈若落地利好全球扩产情绪
+- **物理AI供应链**: Prometheus $120亿融资打开赛道，关注机器人/传感器上市公司
+- **EU AI Act合规服务**: 2026年8月高-risk规则生效，四大会计师事务所受益
+- **DeepSeek融资落地**（两周内）: 500亿首轮，腾讯/宁德时代参投，或触发中国AI重估
 
 ### 风险
-- **FOMC 6月17日**: 点阵图若显示年内加息2次，科技/成长股将大幅回调。
-- **伊朗**: 和平协议=risk-on反弹；冲突升级=全面抛售。
-- **AI监管连锁**: 德国法院裁定AI搜索虚假陈述责任，可能引发全球诉讼潮。
+- **中东和谈破裂**（概率25%）: 油价重返$100+，全球滞胀深化，AI成长股估值承压
+- **6/16-17 FOMC鹰派**: 10Y突破4.7%，成长/AI板块回调5-10%
+- **中美关税升级至60%+**: 中国出口链+AI硬件供应链双向受冲击
 
 ### 关注
-- 6月17日FOMC点阵图与SEP（最关键）
-- 伊朗和平协议周末进展
-- Google Gemini 3.5 Pro发布
-- SpaceX IPO定价与认购
+- 6/16-17 FOMC会议（点阵图+鲍威尔基调）— 本周头号事件
+- BOJ下周加息至1.0%（日元+套利交易冲击）
+- 美伊和谈G7峰会前后进展 — 油价$84已部分定价和平预期
+- SpaceX IPO首日表现（今日上市）— AI资产公开市场估值风向标
 
 ## 数据来源
-- [BLS CPI May 2026](https://www.bls.gov/news.release/cpi.nr0.htm)
-- [BLS PPI May 2026](https://www.bls.gov/news.release/ppi.nr0.htm)
-- [Federal Reserve FOMC Calendar](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm)
-- [Trading Economics - US 10Y Yield](https://tradingeconomics.com/united-states/government-bond-yield)
-- [Ars Technica - Intel Crescent Island](https://arstechnica.com/ai/2026/06/intel-our-upcoming-ai-chip-will-be-cheaper-run-cooler-than-nvidia-amd-options/)
-- [Ars Technica - OpenAI "Chat is dead"](https://arstechnica.com/ai/2026/06/chat-is-dead-openai-preps-overhaul-of-chatgpt/)
-- [Ars Technica - Anthropic Fable 5](https://arstechnica.com/ai/2026/06/anthropic-says-these-topics-are-too-dangerous-to-let-its-fable-5-model-talk-about/)
-- [Ars Technica - S&P 500 rejects SpaceX](https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/)
-- [Ars Technica - German court Google AI ruling](https://arstechnica.com/tech-policy/2026/06/nobody-needs-ai-to-search-the-internet-court-says-in-ruling-against-google/)
-- [Ars Technica - Google Gemini 3.5 Live Translate](https://arstechnica.com/ai/2026/06/google-announces-gemini-3-5-live-translate-for-instant-voice-to-voice-translation/)
-- [Ars Technica - Google Gemma 4 12B](https://arstechnica.com/google/2026/06/googles-new-gemma-4-open-ai-model-is-sized-for-your-laptop/)
-- [Ars Technica - Apple Siri AI](https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant/)
-- [Trading Economics - China GDP](https://tradingeconomics.com/china/gdp-growth-annual)
-- [Trading Economics - China Inflation](https://tradingeconomics.com/china/inflation-cpi)
+- [中国宏观简报](https://www.stats.gov.cn/sj/) — 国家统计局、PBOC、IMF WEO 2026
+- [美国宏观简报](https://fred.stlouisfed.org/) — BEA、BLS、美联储FRED
+- [全球宏观简报](https://tradingeconomics.com) — EUROSTAT、ECB、BOJ、Trading Economics
+- [中国AI产业简报](https://www.yicai.com/) — 第一财经HDC 2026/智源大会现场报道
+- [美国AI产业简报](https://techcrunch.com/2026/06/12/spacex-ipo-everything-you-need-to-know/) — TechCrunch、Ars Technica、Fortune
+- [全球AI产业简报](https://artificialintelligenceact.eu/ai-act-implementation-timeline/) — Reuters、IEA、EU AI Act
