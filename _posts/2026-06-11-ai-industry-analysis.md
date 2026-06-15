@@ -10,35 +10,6 @@ tags: [ai, industry-analysis, agents]
 **声明：** AI生成内容，仅供参考，不构成投资建议。市场有风险，入市需谨慎。
 
 ---
-The macroeconomics analyst task encountered a system error. I will proceed with the analysis directly, gathering the latest available macro data.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## 美国宏观环境
 
