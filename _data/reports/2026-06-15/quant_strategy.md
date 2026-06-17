@@ -1,81 +1,79 @@
 ## 量化策略简报
 
-**日期**: 2026-06-15 | **分析师**: Ray Dalio Jr.
+**日期：2026-06-15**
 
 ### 市场环境
-中国"政策托底+通缩承压"（4月社融骤降至6,245亿、PPI深度通缩），美国"高通胀+高利率"（PPI 6.5%、CPI 4.25%、Fed 4.5%按兵不动），全球分化收敛。**本周核心催化剂**：北京阻止Meta收购Manus（TechCrunch 6/13），中美AI脱钩从芯片扩展至应用层资本流动，国产替代逻辑全面强化。
+全球宏观处于"滞胀阴影+政策分化"格局：美国CPI飙至4.2%迫使FOMC（6/17-18）可能鹰派转向，中国PMI回落至50.0荣枯线但政策托底明确，中东战争推升能源成本压制欧洲，BOJ今日加息至1.0%触发日元重估风险。AI产业层面，美国进入超大规模资本密集期（Q1 VC $242B），中国"硬件受限、应用加速"，全球HBM短缺向韩国输送结构性红利。
 
 ### 产业成熟度对比
 | 产业层 | 中国 | 美国 | 全球 | 差距趋势 |
 |--------|------|------|------|----------|
 | 能源 | 成长期 | 成长期 | 成长期 | 持平 |
-| 硬件 | 成长期(国产加速) | 成熟期 | 成熟期 | 缩小 |
-| 软件 | 成长期 | 成长期 | 成长期 | 持平 |
-| 模型 | 成长期中后段 | 成长期→成熟期 | 成长期 | 缩小 |
-| 应用 | 初始期→成长期 | 成长期 | 成长期(分化) | 缩小 |
+| 硬件 | 成长期（受限） | 成长期→成熟期 | 成长期（HBM近成熟） | 扩大（芯片禁运） |
+| 软件 | 成熟期 | 成长期 | 成长期 | 缩小 |
+| 模型 | 成长期 | 成长期 | 成长期 | 缩小（GLM-5追至全球前五） |
+| 应用 | 成长期早期 | 成长期早期 | 初始→成长 | 持平（中国Agent落地更快） |
 
 ### 核心观点
-**中美AI脱钩从芯片扩展至应用层资本流动，国产替代从"可选"变"必选"——中国AI硬件链（光模块/芯片/服务器/液冷）是当前宏观+产业双重验证下最具确定性的投资方向。**
+**"买硬件确定性，赌应用弹性，防宏观尾部风险"**——全球AI capex超级周期支撑硬件层业绩确定性，但美国滞胀风险和中国PMI走弱构成估值压力；FOMC与BOJ决议是本周关键催化剂。
 
 ### 投资建议
 
 #### 高确信度
 
-**中国AI硬件链 — 做多 — 确信度5 — 仓位8-10%**
-- 标的：中际旭创(300308)、浪潮信息(000977)、寒武纪(688256)、海光信息(688041)
-- 目标/止损：板块上行15-20% / 上证综指跌破3,800止损
-- 逻辑：Manus事件标志脱钩深化→国产替代刚性；华为昇腾910C Q2出货环比+50%；浪潮信息当日+9.04%领涨验证资金共识；中际旭创Q1营收+192%、净利+262%
-- 催化剂：7月政治局会议加码AI基建、H2国产芯片采购招标、NVIDIA H20供应进一步收紧
-- 风险：美国衰退→全球风险资产联动下跌；国产芯片先进制程产能瓶颈
+**中际旭创 (300308)** — 做多 — 确信度4 — 仓位5-7%
+- 目标/止损：1.6T光模块量产催化目标+15%；止损周线跌破20日均线
+- 逻辑：全球AI数据中心光互联需求确定性最强，800G放量+1.6T预期，HBM短缺反衬光互联瓶颈价值
 
-**液冷散热 — 做多 — 确信度4 — 仓位5-7%**
-- 标的：英维克、曙光数创、高澜股份
-- 逻辑：液冷渗透率从15%→35-40%，发改委PUE≤1.25强制要求，万卡集群标配液冷
-- 催化剂：Q2数据中心招标旺季
+**北方华创 (002371)** — 做多 — 确信度4 — 仓位5-7%
+- 目标/止损：国产替代订单催化目标+12%；止损跌破10日均线
+- 逻辑：半导体设备国产替代加速，周涨16%后仍有空间，国家大基金三期直接受益
+
+**Microsoft (MSFT)** — 做多 — 确信度4 — 仓位5-7%
+- 逻辑：Azure AI Foundry Agent平台企业锁定效应最强，Copilot生态闭环，FOMC鹰派若引发科技回调是加仓机会
 
 #### 中确信度
 
-**智能驾驶 — 做多 — 确信度3 — 仓位3-5%**
-- 标的：德赛西威(002920)
-- 逻辑：Robotaxi规模化运营（百度12+城市、广州全域许可），端到端方案成主流，域控制器需求确定性高
+**海光信息 (688041)** — 做多 — 确信度3 — 仓位3-5%
+- 逻辑：国产AI芯片替代预期升温（周涨15%），但产能瓶颈制约短期业绩兑现，适合回调布局
 
-**AI Agent平台 — 确信度3**
-- 标的：科大讯飞(002230)、金山办公(688111)
-- 逻辑：Manus事件催化Agent自主可控价值重估；钉钉/飞书Agent生态加速企业渗透
+**科大讯飞 (002230)** — 做多 — 确信度3 — 仓位3-5%
+- 逻辑：本周回调6%提供入场窗口，AI Agent元年+教育医疗场景落地，但模型层价格战压制估值
+
+**NVIDIA (NVDA)** — 做多 — 确信度3 — 仓位3-5%
+- 逻辑：$4.97T市值+46% YoY，AI芯片结构性垄断，但FOMC鹰派转向对高估值久期敏感，需设紧止损
+
+**科华数据 (002335)** — 做多 — 确信度3 — 仓位3-5%
+- 逻辑：液冷渗透率从30%→60%趋势明确，智算中心订单放量，小市值弹性标的
 
 #### 观察
-- 同花顺(300033)/恒生电子(600570)：金融AI应用落地领先，等待Q2财报验证
-- 汇川技术(300124)：工业AI+机器人双驱动，Prometheus $12B融资映射
+
+- **新易盛/天孚通信**：光模块第二梯队，若中际旭创突破则跟涨
+- **德赛西威**：本周回调5.9%，L3自动驾驶渗透率拐点若确认可介入
+- **三星电子/SK海力士**：HBM 600万亿韩元利润预期，但BOJ加息引发韩元波动风险
+- **Mistral AI融资**：若€30亿成功，提振欧洲AI基础设施主题
 
 ### 风险
-- **首要风险**：美国PPI 6.5%若持续→Fed被迫加息→全球风险资产重定价，A股AI板块难以独善其身
-- **次要风险**：4月社融6,245亿若5月继续低于万亿→国内流动性恶化
-- **尾部风险**：特朗普-习近平峰会破裂→关税升级→出口链+AI供应链双重冲击
+- **FOMC鹰派转向（6/17-18）**：若点阵图显示2026年加息预期，全球科技股估值承压，标普500可能跌破7400
+- **BOJ加息触发套息平仓**：USD/JPY若跌破140，新兴市场和高息资产面临流动性冲击
+- **中东战争升级**：霍尔木兹海峡长期封锁→油价>$120→全球滞胀深化
+- **中国PMI持续收缩**：6月PMI若降至49.5以下，A股盈利预期下修，上证综指回撤风险加大
 
 ### 关注
-- **6月17-18日 FOMC**：点阵图是否暗示加息风险
-- **6月22日 LPR报价**：是否意外降息
-- **5月社融数据**（6月中旬）：验证信贷需求是否回暖
-- **特朗普-习近平峰会成果**
+- **6/17-18 FOMC**：全年最重要决议，点阵图+SEP决定下半年全球资产定价锚
+- **6/16 BOJ决议公布**：加息幅度+前瞻指引+缩表调整
+- **6/17 英国CPI**：影响BOE路径和欧洲债券市场
+- **G7埃维昂峰会（6/15-17）**：AI治理分歧正式化，关注芯片出口管制协调信号
 
 ## 数据来源
-- [新华社 - 2026年政府工作报告 GDP目标](https://www.news.cn/20260305/6aedcb571608414ab396d8b798e4cc33/c.html)
-- [TechCrunch - Meta Manus收购被北京要求解除](https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/)
-- [Global-Rates.com - US CPI 4.25%](https://www.global-rates.com/en/inflation/cpi/4/united-states/)
-- [Polymarket - US PPI 6.5%](https://polymarket.com/hi/event/producer-price-index-ppi-yoy-may-2026)
-- [TradingView - US NFP 172K](https://www.tradingview.com/symbols/ECONOMICS-USNFP/)
-- [Trading Economics - US 10Y 4.44%, DXY 99.49](https://tradingeconomics.com/bonds)
-- [S&P Global - US Mfg PMI 55.3](https://pmi.spglobal.com/)
-- [朝鲜日报 - 韩国HBM/AI投资红利](https://biz.chosun.com/en/en-it/2026/06/06/GR2EKUFMK5C6PNLHTGR5P7Z3CY/)
-- [Bloomberg - Mistral €20B估值融资](https://www.bloomberg.com/news/articles/2026-06-12/france-s-mistral-in-funding-talks-at-about-20-billion-valuation)
-- [TechCrunch - Bezos Prometheus $12B融资](https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/)
-- [TechCrunch - Google AI订阅价格战](https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/)
-- [TechCrunch - Anthropic政府强制关闭模型](https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/)
-- [AkShare - 中国宏观数据](https://akshare.akfamily.xyz/)
-- [腾讯财经/Sina财经 - A股实时行情](https://qt.gtimg.cn/)
-- [Lido Advisors - GDP Second Estimate](https://www.lidoadvisors.com/news/market-updates/monday-market-minute-06012026)
-- [Trading Economics - DXY](https://tradingeconomics.com/dxy:cur)
-- [日经亚洲 - Rapidus 2nm融资](https://asia.nikkei.com/business/tech/semiconductors/japan-chipmaker-rapidus-tops-1bn-in-private-investment-as-ibm-aims-to-join)
-- [ABHS - G7 AI治理](https://www.abhs.in/blog/g7-evian-2026-summit-ai-governance-altman-hassabis-amodei-us-blocks-multilateral-rules)
-
-*本报告仅为投资策略参考，不构成任何投资建议。*
+- [Trading Economics — 中国PMI 50.0](https://tradingeconomics.com/china/business-confidence)
+- [Trading Economics — USD/CNY 6.7586](https://tradingeconomics.com/china/currency)
+- [AkShare — 美国CPI 4.2% (2026年5月)](https://akshare.akfamily.xyz/)
+- [TradingView — 美国5月NFP 172K](https://www.tradingview.com/symbols/ECONOMICS-USNFP/)
+- [ECB Staff Projections — March 2026](https://www.ecb.europa.eu/press/projections/html/ecb.projections202603_ecbstaff~ebe291cd3d.en.html)
+- [Nikkei Asia — BOJ加息至1.0%](https://asia.nikkei.com/economy/bank-of-japan/bank-of-japan-set-to-hike-key-interest-rate-to-1)
+- [Bloomberg/Chosun Biz — 三星/SK海力士HBM利润](https://biz.chosun.com/en/en-it/2026/06/06/GR2EKUFMK5C6PNLHTGR5P7Z3CY/)
+- [StockAnalysis — NVIDIA市值$4.97T](https://stockanalysis.com/stocks/nvda/market-cap/)
+- [新浪财经 — A股实时行情](https://finance.sina.com.cn/)
+- [GuruFocus — 上证综指4031](https://www.gurufocus.com/economic_indicators/4398/sse-composite-index)
+- [TechPolicy.Press — G7埃维昂峰会](https://www.techpolicy.press/g7-summit-set-to-kick-off-amidst-allies-widening-rift-over-ai-sovereignty/)
