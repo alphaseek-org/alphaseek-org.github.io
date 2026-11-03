@@ -1,3 +1,14 @@
+---
+layout: page
+title: "AI产业趋势：证据台账（2026-11-03）"
+permalink: /data/reports/2026-11-03/industry-trend-evidence/
+---
+[← A股AI产业分析：综合评分排名](/2026/11/03/a-share-ai-pick)
+
+**声明：** AI生成内容，仅供参考，不构成投资建议。市场有风险，入市需谨慎。
+
+<div style="overflow-x:auto" markdown="1">
+
 # AI产业趋势证据账本
 
 **report_date:** 2026-11-03  
@@ -128,3 +139,5 @@
 - Z.ai GLM页面网页抓取返回空内容，仅搜索索引候选；不计入强验证发布数。
 - 中国DeepSeek、Moonshot私募融资缺少公司公告或监管文件；保留candidate。
 - 能源/电力已补Microsoft和Google/Constellation直接证据，但中国AI算力电力合同仍缺可验证来源。
+
+</div>

@@ -1,3 +1,14 @@
+---
+layout: page
+title: "A股筛选与核验：证据台账（2026-11-03）"
+permalink: /data/reports/2026-11-03/china-top-company-evidence/
+---
+[← A股AI产业分析：综合评分排名](/2026/11/03/a-share-ai-pick)
+
+**声明：** AI生成内容，仅供参考，不构成投资建议。市场有风险，入市需谨慎。
+
+<div style="overflow-x:auto" markdown="1">
+
 # A股筛选与核验
 
 | ID | Claim type | Claim/metric | Value and unit | Period | Release time | Retrieved at UTC | Source | Tier | Verification | Excerpt | Says |
@@ -30,3 +41,5 @@
 | CTC-E26 | fact | 世纪华通三季报财务 | 营收332.98亿元；归母净利63.35亿元 | 2026年前三季度 | 2026-10-29 | 2026-11-03T09:35Z | https://m.jrj.com.cn/madapter/finance/2026/10/29094958921184.shtml | P2-transparent-secondary | verified | 前三季度，公司实现营业收入332.98亿元，同比增长22.31%；归母净利润63.35亿元 | 世纪华通财务值与初筛一致。 |
 | CTC-E27 | fact | 世纪华通AI暴露 | AI工具与AI原生游戏 | 2026Q3/H1 | 2026-10-29 | 2026-11-03T09:35Z | 同上 | P2-transparent-secondary | verified | 人工智能领域，公司各业务板块加快推进AI工具与核心业务流程整合...探索AI原生游戏方向 | 世纪华通AI层为应用/游戏和AI云数据。 |
 | CTC-E28 | fact | A股交易约束 | T+1、涨跌幅限制、科创/创业板20% | 2026-11-03 | 2026-11-03 | 2026-11-03T09:23Z | 交易所通行规则（本次未打开独立页面） | C-context-only | candidate | A股实行T+1与价格涨跌幅限制 | A股可得性约束需提示，但本行未作为排名输入。 |
+
+</div>

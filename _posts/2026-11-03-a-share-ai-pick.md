@@ -144,12 +144,12 @@ tags: [a-share, ai, equity-research]
 
 ### 数据来源
 
-- 中国宏观：[报告](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/china_macro.md) · [证据台账](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/china_macro_evidence.md)
-- 美国宏观：[报告](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/usa_macro.md) · [证据台账](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/usa_macro_evidence.md)
-- AI产业趋势：[报告](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/industry_trend.md) · [证据台账](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/industry_trend_evidence.md)
-- 美国龙头传导：[报告](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/usa_top_company.md) · [证据台账](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/usa_top_company_evidence.md)
-- A股筛选与核验：[报告](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/china_top_company.md) · [证据台账](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/china_top_company_evidence.md)
-- 入围者画像：[报告](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/enterprise_analysis.md) · [证据台账](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/enterprise_analysis_evidence.md)
-- 本文证据台账：[证据台账](https://github.com/alphaseek-org/alphaseek-org.github.io/blob/main/_data/reports/2026-11-03/a_share_pick_evidence.md)
+- 中国宏观：[报告](/data/reports/2026-11-03/china-macro/) · [证据台账](/data/reports/2026-11-03/china-macro-evidence/)
+- 美国宏观：[报告](/data/reports/2026-11-03/usa-macro/) · [证据台账](/data/reports/2026-11-03/usa-macro-evidence/)
+- AI产业趋势：[报告](/data/reports/2026-11-03/industry-trend/) · [证据台账](/data/reports/2026-11-03/industry-trend-evidence/)
+- 美国龙头传导：[报告](/data/reports/2026-11-03/usa-top-company/) · [证据台账](/data/reports/2026-11-03/usa-top-company-evidence/)
+- A股筛选与核验：[报告](/data/reports/2026-11-03/china-top-company/) · [证据台账](/data/reports/2026-11-03/china-top-company-evidence/)
+- 入围者画像：[报告](/data/reports/2026-11-03/enterprise-analysis/) · [证据台账](/data/reports/2026-11-03/enterprise-analysis-evidence/)
+- 本文：[证据台账](/data/reports/2026-11-03/evidence/)
 
 证据台账逐条列出来源链接、日期、摘录（不超过200字的原文片段）和核验状态。

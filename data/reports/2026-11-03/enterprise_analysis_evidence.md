@@ -1,3 +1,14 @@
+---
+layout: page
+title: "入围者画像：证据台账（2026-11-03）"
+permalink: /data/reports/2026-11-03/enterprise-analysis-evidence/
+---
+[← A股AI产业分析：综合评分排名](/2026/11/03/a-share-ai-pick)
+
+**声明：** AI生成内容，仅供参考，不构成投资建议。市场有风险，入市需谨慎。
+
+<div style="overflow-x:auto" markdown="1">
+
 # 入围者画像
 
 本文件复用 `A股筛选与核验.md` 的 CTC-E04—CTC-E17、`美国龙头传导.md` 的E01—E28、`AI产业趋势.md` 的P/C/D/G系列，以及行情数据报价。每个复用ID在最终报告中按路径引用。未新增私有资料。
@@ -26,3 +37,5 @@
 | EA-E20 | 新易盛 | 风险：光模块客户订单兑现、海外产能物流和毛利率波动 | CTC-E14—CTC-E15、industry/US read-through | verified |
 | EA-E21 | 全部入围者 | 美国AI龙头capex/RPO传导支持硬件链 | 美国龙头传导 E01-E28 | verified |
 | EA-E22 | 全部入围者 | 行业趋势硬件层rising，能源/电力和数据中心成为约束 | AI产业趋势 P/C/D/G | verified |
+
+</div>

@@ -1,3 +1,14 @@
+---
+layout: page
+title: "本文证据台账（2026-11-03）"
+permalink: /data/reports/2026-11-03/evidence/
+---
+[← A股AI产业分析：综合评分排名](/2026/11/03/a-share-ai-pick)
+
+**声明：** AI生成内容，仅供参考，不构成投资建议。市场有风险，入市需谨慎。
+
+<div style="overflow-x:auto" markdown="1">
+
 # 本文证据台账
 
 | ID | Claim type | Claim/metric | Value and unit | Period | Release time | Retrieved at UTC | Source | Tier | Verification | Excerpt | Says |
@@ -16,3 +27,5 @@
 | ASP-E12 | fact | 源杰科技至世纪华通核验 | 第6-10名均通过核验 | 2026-09-30/2026-11-03 | 2026-11-03 | 2026-11-03T09:41Z | A股筛选与核验#CTC-E18-E27 | P1/P2 reused | verified | 已完整验证初筛前10名，达到10只名单 | 第6-10名通过核验但不进入最终评分的前5名入围者。 |
 | ASP-E13 | fact | 入围者画像 | 5名入围者每名至少8项画像点 | 2026-11-03 | 2026-11-03 | 2026-11-03T09:41Z | 入围者画像#EA-E01-E22 | P1/P2 reused | verified | 合并画像覆盖5名已验证入围者，每名至少8个画像事实或判断点 | 企业画像包已补齐为complete。 |
 | ASP-E14 | judgment | 结论置信度 | medium-high | 2026-11-03 | 2026-11-03 | 2026-11-03T09:42Z | supporting ASP-E01-ASP-E13 | judgment | verified | verified=10, 10只名单 met | 关键包达到complete，仍因部分P2和公司细项缺口保持中高而非高置信度。 |
+
+</div>

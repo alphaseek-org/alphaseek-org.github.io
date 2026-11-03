@@ -1,3 +1,14 @@
+---
+layout: page
+title: "美国龙头传导：证据台账（2026-11-03）"
+permalink: /data/reports/2026-11-03/usa-top-company-evidence/
+---
+[← A股AI产业分析：综合评分排名](/2026/11/03/a-share-ai-pick)
+
+**声明：** AI生成内容，仅供参考，不构成投资建议。市场有风险，入市需谨慎。
+
+<div style="overflow-x:auto" markdown="1">
+
 # usa_top_company evidence ledger
 
 **setup:** report_date=2026-11-03；timezone=UTC；报告截止时点=2026-11-03T09:07:16Z；retrieved_at=2026-11-03T09:10:34Z。公司：NVDA、MSFT、AMZN、GOOGL、META。用途：A股AI供应链传导，不是美国股票推荐。公式：传导强度=资本开支/基础设施承诺40% + 需求/订单积压30% + 供应商/客户依赖20% + 中国/亚洲供应链显性度10%；缺失项不补零，仅定性排序。
@@ -38,3 +49,5 @@
 - NVDA的SEC XBRL `facts` 命令对 capex 标签返回旧期数据，未用作最新资本开支数；本包采用10-Q正文的资本开支义务表，现金流capex仍是缺口。
 - 本包没有给出A股标的名单，只提供美国AI龙头对上游硬件、云、电力和亚洲供应链的披露传导。
 - 未使用市场价格、估值或投资建议。
+
+</div>
