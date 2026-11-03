@@ -1,21 +1,12 @@
----
-title: "美国宏观（2026-11-03）"
-permalink: /a-share/2026-11-03/usa-macro/
-description: "A股AI优选报告 2026-11-03 的子报告：美国宏观"
----
-[← A股AI优选 2026-11-03](/2026/11/03/a-share-ai-pick)
-
-**声明：** AI生成内容，仅供参考，不构成投资建议。市场有风险，入市需谨慎。
-
 ## 美国宏观经济：最新四个季度与最新十二个月（截至2026-11-03）
 
 **报告截至：** 2026-11-03 17:07:16 Asia/Shanghai / 2026-11-03T09:07:16Z  
 **资料检索：** 2026-11-03 UTC  
-**范围与方法：** 观察窗口为最新四个季度与最新十二个月；本报告声明并使用14项指标：联邦基金/政策利率、10年与2年期美债、广义美元、实际GDP、CPI、核心PCE、失业率、非农就业、工业生产、联邦赤字、联邦债务、货物和服务贸易差额、经常账户。FRED序列使用当前版本，标为`revised`；官方发布页可读时优先官方页。BLS就业与CPI页面本轮被403阻断，相关发布文本以搜索/页面读取得到的官方片段记录为`candidate/limited`。
+**范围与方法：** 观察窗口为最新四个季度与最新十二个月；本报告声明并使用14项指标：联邦基金/政策利率、10年与2年期美债、广义美元、实际GDP、CPI、核心PCE、失业率、非农就业、工业生产、联邦赤字、联邦债务、货物和服务贸易差额、经常账户。FRED序列使用当前版本，标为`revised`；官方发布页可读时优先官方页。BLS就业与CPI页面本次被403阻断，相关发布文本以搜索/页面读取得到的官方片段记录为`candidate/limited`。
 
 ### 执行摘要
 
-截至本轮截至时点，美国宏观组合对全球AI资本开支和A股的含义是：**增长仍有支撑、通胀和利率仍偏高、金融条件未明显宽松**。BEA预估2026年三季度实际GDP年化增长3.4%[USM-07]，工业生产9月环比升0.7%、指数104.0[USM-15]，说明实体需求与产能利用并未转弱。与此同时，FOMC在10月28日维持联邦基金目标区间3.75%-4.00%，并称“Inflation remains elevated”[USM-01]；10月30日10年期美债收益率4.94%、2年期4.56%[USM-03][USM-04]，贴现率环境仍压制长久期资产估值。
+截至本次截至时点，美国宏观组合对全球AI资本开支和A股的含义是：**增长仍有支撑、通胀和利率仍偏高、金融条件未明显宽松**。BEA预估2026年三季度实际GDP年化增长3.4%[USM-07]，工业生产9月环比升0.7%、指数104.0[USM-15]，说明实体需求与产能利用并未转弱。与此同时，FOMC在10月28日维持联邦基金目标区间3.75%-4.00%，并称“Inflation remains elevated”[USM-01]；10月30日10年期美债收益率4.94%、2年期4.56%[USM-03][USM-04]，贴现率环境仍压制长久期资产估值。
 
 对全球AI支出：美国需求与资本投资韧性支持云、算力、半导体设备与电力基础设施订单，但高利率提高融资成本，使AI capex更依赖头部平台现金流与可见回报。对A股：若美元和美债收益率维持高位，外资风险偏好和人民币资产估值承压；但美国AI基础设施周期仍可能通过服务器、光模块、PCB、功率半导体和电力设备链条提供外需线索。本报告不构成投资建议。
 
@@ -80,7 +71,7 @@ description: "A股AI优选报告 2026-11-03 的子报告：美国宏观"
 ### 方法与数据缺口
 
 - FRED脚本成功返回10个序列；官方FOMC、BEA GDP、BEA PCE、Fed H.15、Fed G.17、Treasury/Fiscal Data、BEA/Census贸易、BEA国际交易页面成功读取。
-- Treasury月度收益率页本轮超时；已用Fed H.15官方页替代美债收益率证据。
+- Treasury月度收益率页本次超时；已用Fed H.15官方页替代美债收益率证据。
 - BLS CPI与就业页面/PDF被403或DNS阻断；使用搜索/页面读取到的官方片段和FRED序列，相关发布文本标为candidate，不作为唯一未限定证据。
 - TIC资本流量未完成完整证据链。
 
@@ -96,16 +87,5 @@ description: "A股AI优选报告 2026-11-03 的子报告：美国宏观"
 - [BEA/Census International Trade](https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026) — 2026年8月货物和服务贸易，2026-10-06。
 - [BEA International Transactions](https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-2nd-quarter-2026) — 2026Q2经常账户，2026-09-24。
 - [FRED CSV DFF/DGS10/DGS2/DTWEXBGS/GDPC1/CPIAUCSL/PCEPILFE/UNRATE/PAYEMS/INDPRO](https://fred.stlouisfed.org/) — 当前版本序列，截至2026-11-03。
-- [BLS Employment Situation](https://www.bls.gov/news.release/empsit.htm) — 2026年9月就业片段；本轮直接读取受阻。
-- [BLS CPI](https://data.bls.gov/news.release/cpi.htm) — 2026年9月CPI片段；本轮直接读取受阻。
-
-## 证据台账
-
-**report_date:** 2026-11-03（Asia/Shanghai）  
-**as_of:** 2026-11-03 17:07:16 Asia/Shanghai / 2026-11-03T09:07:16Z  
-**retrieved_at:** 2026-11-03T09:07:16Z 至本轮检索完成  
-**窗口:** 最新四个季度与最新十二个月；FRED序列取截至2026-11-03的最后6个观测。  
-**声明指标:** 联邦基金/政策利率、10年与2年期美债、广义美元、实际GDP、CPI、核心PCE、失业率、非农就业、工业生产、联邦赤字、联邦债务、货物和服务贸易差额、经常账户。  
-**版本说明:** FRED为透明二级来源，且提供当前版本；可能被修订的宏观序列标为 revised。BLS页面因403，CPI与就业释放文本使用搜索/页面读取得到的可核验片段，列为 candidate/limited。Fiscal Data API、BEA/Census贸易页和BEA国际交易页为本轮新增官方证据。
-
-{% include ledger.html run="2026-11-03" name="usa_macro_evidence" %}
+- [BLS Employment Situation](https://www.bls.gov/news.release/empsit.htm) — 2026年9月就业片段；本次直接读取受阻。
+- [BLS CPI](https://data.bls.gov/news.release/cpi.htm) — 2026年9月CPI片段；本次直接读取受阻。

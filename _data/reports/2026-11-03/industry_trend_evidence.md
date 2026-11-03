@@ -1,140 +1,30 @@
----
-title: "AI产业趋势（2026-11-03）"
-permalink: /a-share/2026-11-03/industry-trend/
-description: "A股AI优选报告 2026-11-03 的子报告：AI产业趋势"
----
-[← A股AI优选 2026-11-03](/2026/11/03/a-share-ai-pick)
-
-**声明：** AI生成内容，仅供参考，不构成投资建议。市场有风险，入市需谨慎。
-
-## AI产业趋势：美国、中国与欧盟政策背景，2025-11-03至2026-11-03
-
-**报告截至：** 2026-11-03T09:07:16Z（UTC）  
-**资料检索：** 2026-11-03 UTC  
-**范围与方法：** 过去12个月；地区为美国、中国，并在政策层加入欧盟；证据流包括arXiv计数、HF daily papers样本、公司发布、融资/并购/算力与电力承诺、政策。证据ID见 `AI产业趋势.md`。本文只描述产业趋势，不构成投资建议。
-
-### 执行摘要
-
-1. **模型层仍上行，但主叙事从“更大”转向“更便宜、更长上下文、更会执行”。** arXiv五类计数中cs.AI、cs.LG、cs.CL在Q2冲高后仍处高位，HF三个月top papers也从agentic reasoning、agent harness、VLA转向长程业务agent和工具轨迹合成（P01-P09）。公司侧DeepSeek、Qwen、ERNIE、Hunyuan、MiniMax、Anthropic都强调MoE、缓存、长上下文、agent和降本（C01-C06、C14-C17）。
-2. **软件/平台层是最清晰的上行层。** Microsoft、AWS、Qwen、DeepSeek、MiniMax、ByteDance、Tencent都把模型封装进agent工具链、Bedrock/Foundry/API、企业工作流或编码工具（C04、C08-C12、C14、C16-C17）。
-3. **硬件和能源/电力从间接约束变成直接证据。** NVIDIA Rubin/DGX SuperPOD强调AI工厂全栈与token成本；Microsoft宣布Pecos约2GW数据中心容量并配套 onsite energy；Google/Constellation签20年PPA带来890MW新增核电和2700MW供应协议（C07、D18-D19）。
-4. **资本仍集中于模型、算力和垂直应用。** 已记录19条交易/承诺，其中18条带金额；OpenAI和中国私募融资仍为候选，但P1/P2验证金额已覆盖Anthropic、Shield AI、AMD、Visa、Google/Constellation、Microsoft、Deepgram、SiMa.ai等（D02-D19）。
-5. **政策分化加深。** 美国同时推进自愿前沿模型框架、国安AI、出口控制和DeepSeek采购排除；中国用备案、拟人化互动办法和“模数共振/AI+软件”推动可控落地；欧盟AI Act进入执行并以AI工厂支持算力（G01-G11）。
-
-### 研究论文（arXiv）
-
-arXiv计数覆盖cs.AI、cs.CL、cs.LG、cs.CV、cs.RO五类。cs.AI从Q1的12,041升至Q2的17,130，Q3为15,302，Q4*为12,851；cs.LG为11,704→15,192→13,326→12,905；cs.RO则逐季上行，Q4*已达4,529（P01、P03、P05）。这说明模型方法和语言技术仍维持高产，机器人/具身智能从小基数进入更快增长区。
-
-HF daily papers月度API的crawler路径仍失败，但本机脚本成功取得2026-01、2026-05、2026-10三个月top papers。样本显示：1月主题是agentic reasoning、RL优化、音视频生成；5月出现`Code as Agent Harness`、`Qwen-VLA`、`MolmoAct2`；10月转向`BizAgentBench`、`Trajectory2Gym`和self-retrospection distillation（P06-P09）。三个月top 10人工归类中，智能体/工具/编码从4→4→5篇，多模态从3→3→1篇，机器人/VLA从0→2→2篇，安全/评测从1→2→3篇。计数只代表研究注意力，不证明商业采用。
-
-### 主要公司动态
-
-**美国与欧洲公司。** Anthropic推出Haiku 5.5并称运行成本较Haiku 4.5平均低约75%，Series H融资用于扩算力和产品伙伴关系（C01-C02）。Microsoft把Copilot、Agent 365、Foundry和多模型harness打包成企业智能体平台（C08-C09）。AWS继续把OpenAI、Anthropic模型放进Bedrock分发和治理层（C11-C12）。NVIDIA Rubin/DGX SuperPOD强调Vera CPU、Rubin GPU、NVLink、DPU和Ethernet全栈协同，目标是降低推理token成本（C07）。OpenAI官网仍403，但搜索索引显示GPT-5.6主叙事为“每token智能”和“performance per dollar”（C13）。
-
-**中国公司。** Qwen3开源MoE和dense模型，Qwen3-Coder进入agentic coding和Qwen Code工具链（C03-C04）。DeepSeek V4/V4.1强调开权、1M上下文、KV缓存压缩、峰谷价格和更低推理成本（C05-C06）。ByteDance Seed 2.0、百度ERNIE 5.1、腾讯Hunyuan Hy3、MiniMax M3.1 Flash都把复杂任务、agent、长上下文、MoE/稀疏化与成本效率作为发布重点（C14-C17）。Moonshot/Kimi平台迁移到K3.1 Pro；Z.ai GLM-5.2资料仅为候选（C18-C19）。
-
-### 并购、投资与初创企业
-
-资本流向仍偏模型、基础设施和高价值应用。模型与算力侧包括Anthropic US$65B Series H、Mistral约€3B、OpenAI US$122B候选、DeepSeek/Moonshot候选、中国外的Shield AI US$2B融资/并购（D01-D04、D11-D13）。硬件与空间/物理AI包括AMD以约US$8.2B股票收购World Labs、SiMa.ai US$150M Series C（D06、D16）。应用侧包括Visa以US$2.4B收购BioCatch、Agilent以US$240M+里程碑收购Proscia、Rezolve AI以US$230M收购Reward、Pathos AI US$237M Series E、Deepgram US$130M Series C并收购OfOne（D07-D09、D14-D15）。
-
-能源和算力承诺已补强：Microsoft宣布Pecos数据中心约2GW容量、未来5-7年多十亿美元投资并配套现场能源；Google/Constellation 20年PPA带来890MW新增核电、另有2700MW供应协议和超过US$4.3B投资（D18-D19）。这把能源/电力从“由芯片和融资间接推断”提高到“有直接容量和PPA证据”。
-
-### 各国政策
-
-美国：EO 14409建立面向covered frontier models的自愿早期接触框架；NSPM-11推动国安体系采用AI；白宫提出全国AI立法框架；BIS撤销AI Diffusion规则但强化半导体与Huawei Ascend相关限制；Federal Register API确认DHS排除DeepSeek产品的采购/移除通知（G01-G05、G11）。
-
-中国：网信办等发布《人工智能拟人化互动服务管理暂行办法》，7月15日生效；生成式AI备案到8月31日累计1112款服务、731款应用/功能；工信部和国家数据局推动“模数共振”，以行业数据集、行业模型和智能体服务新型工业化；工信部另印发“人工智能+软件”专项行动（G06-G09）。
-
-欧盟：AI Act自2026年8月2日起由AI Office和成员国主管机关执行，同时欧盟以AI Continent Action Plan、AI Factories/Gigafactories和InvestAI支持算力与产业能力（G10）。
-
-### 美国与中国对比
-
-美国主线是“资本—云—芯片—模型—企业平台—电力”的闭环：巨额融资、云模型分发、芯片出口控制、联邦采购限制和GW级电力/数据中心项目同时推进。中国主线是“开权/低成本模型—备案治理—行业数据与场景落地”：Qwen、DeepSeek、Hunyuan、MiniMax、ERNIE、Seed强化开权、MoE、agent和成本优势；监管侧用备案和拟人化互动规则设边界；产业侧通过行业数据集、软件专项和智能体推进制造/软件落地。
-
-### 过去12个月的时间线
-
-```mermaid
-timeline
-    title AI产业过去12个月关键事件（证据ID）
-    2025-12~2026-02 : arXiv基线高位 P01-P05 : HF 1月agent/reasoning样本 P06 : Seed2.0 C14 : Deepgram D15
-    2026-03 : OpenAI融资候选 D01 : Shield AI融资/并购 D13 : 美国AI立法框架 G03
-    2026-04 : Qwen3 C03 : DeepSeek V4 C05 : 中国拟人化办法 G06 : 模数共振 G08
-    2026-05 : Anthropic Series H D02 : ERNIE 5.1 C15 : HF 5月agent/VLA样本 P07
-    2026-06 : EO14409/NSPM-11 G01-G02 : AWS Bedrock C11-C12 : EXL-iMerit D05 : Microsoft Pecos 2GW D18
-    2026-07~08 : Qwen3-Coder C04 : Tencent Hy3 C16 : Visa-BioCatch D07 : CAC备案 G07
-    2026-09 : DeepSeek V4.1 C06 : Mistral D03 : AMD-World Labs D06 : AI+软件 G09
-    2026-10~11* : HF 10月长程agent样本 P08 : MiniMax M3.1 C17 : Google核电PPA D19 : DHS DeepSeek排除 G05
-```
-
-### 概念与实践的演进
-
-| 概念/实践 | 想法 | 演示 | 产品 | 资本 | 政策 | 状态 | 瓶颈 |
-|---|---|---|---|---|---|---|---|
-| Agentic coding/工具执行 | P06/P07/P08 | C04/C16/C17 | C04/C09/C11/C17 | D05/D10/D13 | G01 | accelerating | 可靠执行、权限和审计 |
-| 高效推理/MoE/KV缓存 | P03/P08 | C03/C06/C16/C17 | C01/C06/C17 | D01-D04 | G04 | accelerating | 真实负载成本透明度 |
-| 开权模型生态 | P06-P08 | C03/C05/C16 | C03-C06/C16-C18 | D03/D11/D12 | G07 | accelerating | 合规、商业化和分发 |
-| 企业Copilot/Agent平台 | P07/P08 | C08/C09/C11 | C08-C12 | D10/D17 | G01/G03 | mature/accelerating | 数据连接器、可观测性 |
-| 机器人/具身/VLA | P05/P07/P09 | C07 | G08 | D06/D16 | G08 | emerging | 数据、仿真到真机迁移 |
-| AI工厂/电力 | P03 | C07/D18/D19 | C11/C12/D18 | D01-D04/D18-D19 | G04/G10 | accelerating | 电力接入、许可、供应链 |
-| 拟人化/语音/多模态应用 | P06/P09 | C14/C17/G06 | G06/G07/D15 | D09/D15 | G06 | regulated growth | 用户依赖、未成年人保护 |
-| AI评测/可观测性 | P08/P09 | D10/C17 | D10 | D05/D10 | G01/G10 | emerging | 标准化、独立验证 |
-
-```mermaid
-flowchart LR
-  A[高效推理/MoE C03 C06 C16 C17] --> B[更低token成本 C01 C06 C17]
-  B --> C[企业agent规模化 C08 C09 C11 C17]
-  C --> D[agent可观测性/治理 D10 G01]
-  A --> E[AI工厂硬件 C07]
-  E --> F[算力与电力承诺 D18 D19]
-  G[行业数据集/模型 G08] --> H[应用落地 D05 D07 D08 D14]
-  I[拟人化/语音应用 G06 D15] --> J[应用监管/备案 G07]
-```
-
-### 趋势判断与置信度
-
-| 层 | 论文 | 公司动态 | 资本 | 政策 | 方向 | 变化幅度与期间 | 最强反证 |
-|---|---|---|---|---|---|---|---|
-| 能源和电力 | 间接 | NVIDIA token-per-cost；Microsoft 2GW | Google/Constellation 890MW+2700MW；Microsoft多十亿美元 | EU支持AI工厂，美国管制芯片 | rising | 从间接证据升级为2条P1容量/PPA证据（Q2/Q4） | 中国AI电力合同缺口；PPA不等于即时投运 |
-| 硬件 | cs.LG/AI高位 | Rubin全栈发布 | AMD-World Labs、SiMa.ai、模型公司融资 | BIS限制先进芯片 | rising | Q2/Q3硬件与算力交易金额高 | 出口控制可能压制中国高端硬件获取 |
-| 软件/平台 | HF agent/工具主题3个月均高 | Copilot/Foundry/Bedrock/Qwen Code/DeepSeek API/MiniMax | iMerit/Fiddler/Fonoa等交易 | 中国模数共振、美国自愿框架 | rising | 公司发布≥19条、覆盖≥14家公司；交易≥5条 | 平台锁定和治理复杂度上升 |
-| 模型 | cs.AI Q2较Q1 +42%；HF top papers补足3个月 | Qwen/DeepSeek/Anthropic/ERNIE/Hunyuan/MiniMax连续发布 | 超大额融资 | AI Act、备案、出口控制 | rising | cs.AI、cs.LG、cs.CL高位，模型发布跨中美 | OpenAI与中国私募融资部分候选 |
-| 应用 | cs.RO逐季上升；HF VLA/业务agent | Copilot、拟人化、行业AI、语音/视频 | Visa/Agilent/Pathos/Deepgram/Rezolve等 | 中国/欧盟应用监管加强 | rising但分化 | cs.RO Q1 2581→Q4*4529；应用交易多 | 消费陪伴类受监管约束，ROI不均 |
-
-### 情景与失效条件
-
-- **基准情景：平台化扩散。** 模型成本继续下降，企业通过Bedrock、Foundry、Copilot、Qwen/DeepSeek/MiniMax工具链采用多模型agent。失效条件：推理成本下降停止，安全事故导致强制许可或大规模采购暂停。
-- **约束情景：算力与政策瓶颈。** 电力、芯片出口控制和融资成本限制前沿扩张，低成本开权模型和行业专用模型受益。失效条件：先进硬件供给快速放量且监管放松。
-- **应用情景：行业数据胜出。** 医疗、金融、制造、软件开发、语音/客服等场景因数据和流程闭环先兑现价值。失效条件：客户ROI不足或合规成本高于自动化收益。
-
-### 方法与数据缺口
-
-- HF daily papers crawler仍不可达；但本机脚本已取得2026-01、2026-05、2026-10三个月top papers，最低项已满足，复现时需注意网络路径差异。
-- OpenAI官网对crawler仍403，OpenAI发布和融资保留为candidate，未作为唯一关键证据。
-- Z.ai GLM页面crawler空白，相关公司行不计入强验证发布数。
-- 中国DeepSeek、Moonshot私募融资缺少公司公告或监管文件，不能与P1交易同等看待。
-- 能源/电力已补P1直接证据，但中国AI算力电力合同、PPA和并网进度仍缺。
-
-### 数据来源
-
-详见 `AI产业趋势.md`：P01-P09、C01-C19、D01-D19、G01-G11。
-
-## 证据台账
+# AI产业趋势证据账本
 
 **report_date:** 2026-11-03  
 **timezone:** UTC  
-**as_of:** 2026-11-03T09:07:16Z  
+**报告截止时点:** 2026-11-03T09:07:16Z  
 **window:** 2025-11-03 至 2026-11-03，按四个季度近似：Q1=2025-12~2026-02，Q2=2026-03~05，Q3=2026-06~08，Q4=2026-09~11*（11月仅1-3日）  
 **regions:** 美国、中国，政策项加入欧盟  
 **layers:** 能源和电力、硬件、软件/平台、模型、应用  
 **retrieved_at:** 2026-11-03 UTC
 
-> 说明：每行给出URL、日期、摘录和“Says”。HF月度API在crawler仍失败，但同一脚本从本机可读取HF daily papers月度端点，已补足3个月top papers；OpenAI官网仍403，OpenAI行保留为搜索/替代来源候选。
+> 说明：每行给出URL、日期、摘录和“Says”。HF月度API在网页抓取仍失败，但同一脚本可读取HF daily papers月度端点，已补足3个月top papers；OpenAI官网仍403，OpenAI行保留为搜索/替代来源候选。
 
 ## 研究论文：arXiv月度计数与HF daily papers
 
-脚本：`industry-trend/scripts/arxiv_hf.py counts --cat <cat> --as-of 2026-11-03 --months 12`；`papers --month <YYYY-MM> --n 10`。计数来自arXiv API，top papers来自HF daily papers API（本机可达，crawler不可达）。
+数据来源：论文计数来自arXiv API，热门论文来自Hugging Face每日论文接口。
 
-{% include ledger.html run="2026-11-03" name="industry_trend_evidence" %}
+| ID | 类型 | URL | 日期 | 层 | 类别/事项 | 值 | Tier | 验证 | 摘录 | Says |
+|---|---|---|---|---|---|---:|---|---|---|---|
+| P01 | fact | https://export.arxiv.org/api/query | 2025-12~2026-11 | 模型 | cs.AI quarterly submissions | Q1 12041; Q2 17130; Q3 15302; Q4* 12851 | P1 | verified | cs.AI 2026-05 7055; cs.AI 2026-10 6506 | cs.AI论文量在Q2高点后仍维持高位。 |
+| P02 | fact | https://export.arxiv.org/api/query | 2025-12~2026-11 | 模型 | cs.CL quarterly submissions | Q1 5565; Q2 7691; Q3 6966; Q4* 6354 | P1 | verified | cs.CL 2026-05 3066; cs.CL 2026-10 3306 | NLP/LLM相关投稿Q2后维持高位。 |
+| P03 | fact | https://export.arxiv.org/api/query | 2025-12~2026-11 | 模型 | cs.LG quarterly submissions | Q1 11704; Q2 15192; Q3 13326; Q4* 12905 | P1 | verified | cs.LG 2026-05 6879; cs.LG 2026-10 6813 | 机器学习投稿Q2和Q4高，说明模型方法关注仍强。 |
+| P04 | fact | https://export.arxiv.org/api/query | 2025-12~2026-11 | 模型/应用 | cs.CV quarterly submissions | Q1 8030; Q2 11328; Q3 9656; Q4* 7871 | P1 | verified | cs.CV 2026-03 4063; cs.CV 2026-10 3990 | 视觉与多模态相关投稿Q2冲高。 |
+| P05 | fact | https://export.arxiv.org/api/query | 2025-12~2026-11 | 应用 | cs.RO quarterly submissions | Q1 2581; Q2 3718; Q3 3878; Q4* 4529 | P1 | verified | cs.RO 2026-09 2191; cs.RO 2026-10 2240 | 机器人投稿逐季上升，Q4*已超过前三季。 |
+| P06 | fact | https://huggingface.co/api/daily_papers?month=2026-01&limit=10 | 2026-01 | 模型/软件 | HF top papers | top: Agentic Reasoning for LLMs; GDPO; LTX-2 | P1 | verified | “Agentic Reasoning for Large Language Models”; “GDPO”; “LTX-2” | 1月top papers集中在agentic reasoning、RL优化和音视频生成。 |
+| P07 | fact | https://huggingface.co/api/daily_papers?month=2026-05&limit=10 | 2026-05 | 应用/软件 | HF top papers | top: MolmoAct2; SkillOpt; Code as Agent Harness; Qwen-VLA | P1 | verified | “Code as Agent Harness”; “Qwen-VLA”; “Action Reasoning Models for Real-world Deployment” | 5月top papers显示智能体工具执行、机器人VLA和agent技能优化升温。 |
+| P08 | fact | https://huggingface.co/api/daily_papers?month=2026-10&limit=10 | 2026-10 | 软件/应用 | HF top papers | top: BizAgentBench; Trajectory2Gym; Self-Retrospection Distillation | P1 | verified | “BizAgentBench”; “Trajectory2Gym”; “Self-Retrospection Distillation” | 10月top papers转向长程业务agent、工具轨迹合成和RL/蒸馏效率。 |
+| P09 | fact | https://export.arxiv.org/api/query?id_list=2601.12538,2605.18747,2605.30280,2610.20424,2610.33568,2610.05608 | 2026-01~10 | 软件/应用 | arXiv abstracts for selected HF papers | 6 abstracts read | P1 | verified | “LLMs as autonomous agents that plan, act”; “code… operational substrate”; “single vision-language-action” | 被抽查论文摘要支持“agent、VLA、长程执行、多模态生成”主题归类。 |
 
 ## 公司发布与产品/平台动态
 
@@ -158,13 +48,13 @@ flowchart LR
 | C16 | fact | https://tencentcloud.com/techpedia/144773?lang=en | 2026-07-06 | Tencent/Hunyuan | 模型/软件 | Hy3 | P1 | verified | “295B total params · 21B active · 256K context · MoE fast/slow thinking · Apache 2.0” | 腾讯Hunyuan以MoE、开权、agentic coding和成本效率竞争。 |
 | C17 | fact | https://www.minimax.io/blog/minimax-m31f | 2026-10-19 | MiniMax | 模型/应用 | M3.1 Flash | P1 | verified | “nearly three times faster and reducing usage costs by 70%” | MiniMax把agent、computer use、coding与低成本推理结合。 |
 | C18 | fact | https://platform.moonshot.cn/docs/models | 2026-10-31 | Moonshot/Kimi | 模型/平台 | Kimi K3.1 Pro迁移 | P1 | verified | “K2系列模型将于2026年10月31日起停止向新注册用户开放… 使用最新模型 kimi-k3.1-pro” | Moonshot平台向K3.1 Pro迁移，长上下文/编程模型继续迭代。 |
-| C19 | fact | https://z.ai/blog/glm-5.2 | 2026-06-16 | Zhipu/Z.ai | 模型/软件 | GLM-5.2 | P2 | candidate | “solid 1M-token context… reducing per-token FLOPs by 2.9×” | Z.ai页面crawler空白，搜索索引用作候选：长程任务和1M上下文是主线。 |
+| C19 | fact | https://z.ai/blog/glm-5.2 | 2026-06-16 | Zhipu/Z.ai | 模型/软件 | GLM-5.2 | P2 | candidate | “solid 1M-token context… reducing per-token FLOPs by 2.9×” | Z.ai页面网页抓取空白，搜索索引用作候选：长程任务和1M上下文是主线。 |
 
 ## 并购、投资、上市与算力/能源承诺
 
 | ID | 类型 | URL | 日期 | 交易方 | 层 | 金额 | 阶段 | Tier | 验证 | 摘录 | Says |
 |---|---|---|---|---|---|---:|---|---|---|---|---|
-| D01 | fact | https://openai.com/index/accelerating-the-next-phase-ai | 2026-03-31 | OpenAI; SoftBank/a16z等 | 模型/硬件 | US$122B | closed | P2 | candidate | “closed our latest funding round with $122 billion… post money valuation of $852 billion” | OpenAI官网crawler 403；搜索索引用作候选。 |
+| D01 | fact | https://openai.com/index/accelerating-the-next-phase-ai | 2026-03-31 | OpenAI; SoftBank/a16z等 | 模型/硬件 | US$122B | closed | P2 | candidate | “closed our latest funding round with $122 billion… post money valuation of $852 billion” | OpenAI官网网页抓取 403；搜索索引用作候选。 |
 | D02 | fact | https://www.anthropic.com/news/series-h | 2026-05-28 | Anthropic; Altimeter/Dragoneer等 | 模型/硬件 | US$65B | closed | P1 | verified | “raised $65 billion in Series H… valuing the company at $965 billion post-money” | Anthropic融资集中在扩算力和Claude商业化。 |
 | D03 | fact | https://siliconangle.com/2026/09/08/open-source-ai-developer-mistral-closes-e3b-funding-round/ | 2026-09-08 | Mistral; Samsung等 | 模型/平台 | €3B (~US$3.49B) | announced | P2 | verified | “raised €3 billion, or about $3.49 billion… Samsung Electronics… led” | 欧洲模型公司继续获得战略资本。 |
 | D04 | fact | https://www.anthropic.com/news/series-h | 2026-05-28 | Amazon→Anthropic | 硬件/模型 | US$5B (included) | committed | P1 | verified | “includes $15 billion… from hyperscalers, including $5 billion from Amazon.” | 云厂商资本与模型公司绑定。 |
@@ -233,8 +123,8 @@ flowchart LR
 
 ## 缺口
 
-- Hugging Face daily papers API 对crawler仍为network unreachable；本机脚本成功取得2026-01、2026-05、2026-10三个月top papers，因此最低项已满足但留有可复现环境差异。
-- OpenAI官网仍对crawler返回403；OpenAI发布和融资行仍为candidate，未作为唯一关键证据。
-- Z.ai GLM页面crawler返回空内容，仅搜索索引候选；不计入强验证发布数。
+- Hugging Face daily papers API 对网页抓取仍为network unreachable；脚本成功取得2026-01、2026-05、2026-10三个月top papers，因此最低项已满足但留有可复现环境差异。
+- OpenAI官网仍对网页抓取返回403；OpenAI发布和融资行仍为candidate，未作为唯一关键证据。
+- Z.ai GLM页面网页抓取返回空内容，仅搜索索引候选；不计入强验证发布数。
 - 中国DeepSeek、Moonshot私募融资缺少公司公告或监管文件；保留candidate。
 - 能源/电力已补Microsoft和Google/Constellation直接证据，但中国AI算力电力合同仍缺可验证来源。
