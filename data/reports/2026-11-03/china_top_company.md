@@ -1,3 +1,12 @@
+---
+layout: page
+title: "A股筛选与核验（2026-11-03）"
+permalink: /data/reports/2026-11-03/china-top-company/
+---
+[← A股AI产业分析：综合评分排名](/2026/11/03/a-share-ai-pick)
+
+**声明：** AI生成内容，仅供参考，不构成投资建议。市场有风险，入市需谨慎。
+
 ## 中国AI公司排名（A股）
 
 **报告截至：** 2026-11-03 17:07:16 Asia/Shanghai  

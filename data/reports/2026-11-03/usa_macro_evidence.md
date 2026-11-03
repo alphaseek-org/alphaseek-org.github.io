@@ -1,3 +1,14 @@
+---
+layout: page
+title: "美国宏观：证据台账（2026-11-03）"
+permalink: /data/reports/2026-11-03/usa-macro-evidence/
+---
+[← A股AI产业分析：综合评分排名](/2026/11/03/a-share-ai-pick)
+
+**声明：** AI生成内容，仅供参考，不构成投资建议。市场有风险，入市需谨慎。
+
+<div style="overflow-x:auto" markdown="1">
+
 # 美国宏观证据台账
 
 **report_date:** 2026-11-03（Asia/Shanghai）  
@@ -31,3 +42,5 @@
 | USM-20 | fact | 联邦总公众债务 | 40,524,510,013,062.41美元 | 2026-10-30（日度） | Fiscal Data日度更新 | 2026-11-03T09:31:09Z | https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny?filter=record_date:lte:2026-11-03&sort=-record_date&page[size]=5&format=json | 官方API记录日期早于报告截止时点 | Debt to the Penny | P1-primary | actual | yes | verified | “record_date":"2026-10-30"..."tot_pub_debt_out_amt":"40524510013062.41"” | Debt to the Penny显示10月30日总公众债务约40.525万亿美元。 |
 | USM-21 | fact | 货物和服务贸易逆差 | 1056亿美元 | 2026-08（月度） | 2026-10-06 08:30 EDT | 2026-11-03 UTC | https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026 | 官方发布日期早于报告截止时点 | BEA/Census trade release | P1-primary | actual | yes | verified | “the goods and services deficit was $105.6 billion in August, up $12.7 billion from $92.8 billion in July” | BEA/Census显示8月贸易逆差较7月扩大。 |
 | USM-22 | fact | 经常账户逆差 | 2460亿美元；占GDP 3.0% | 2026Q2 | 2026-09-24 08:30 EDT | 2026-11-03 UTC | https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-2nd-quarter-2026 | 官方发布日期早于报告截止时点 | BEA international transactions release | P1-primary | actual | yes | verified | “current-account deficit...widened...to $246.0 billion...second quarter of 2026” | BEA显示二季度经常账户逆差扩大至2460亿美元。 |
+
+</div>
