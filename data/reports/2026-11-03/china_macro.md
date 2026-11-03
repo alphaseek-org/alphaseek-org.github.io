@@ -92,12 +92,12 @@ PPI方面，前三季度工业生产者出厂价格同比上涨2.3%；9月同比
 
 ### 数据来源
 
-- 国家统计局 — GDP、工业、服务、消费、投资、房地产、价格、就业综合发布：https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965618.html
-- 国家统计局 — 2026年9月规模以上工业增加值：https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965617.html
-- 国家统计局 — 2026年9月CPI：https://www.stats.gov.cn/sj/zxfb/202610/t20261014_1965477.html
-- 国家统计局/CFLP — 2026年10月PMI：https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html
-- 中国人民银行 — 2026年前三季度金融统计数据：https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026101415422529740/index.html
-- 中国人民银行 — 2026年9月LPR：https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026092008384254324/index.html
-- 海关总署 — 2026年9月进出口人民币值：http://english.customs.gov.cn/Statics/22e23664-4ac7-4c03-80d8-27572ac63ff7.html
-- 财政部 — 2026年前三季度财政收支：http://m.mof.gov.cn/czxw/202610/t20261023_4003380.htm
-- 司法部转载新华社 — 2026年7月30日政治局会议：https://www.moj.gov.cn/pub/sfbgw/gwxw/ttxw/202607/t20260730_538040.html
+- 国家统计局 — GDP、工业、服务、消费、投资、房地产、价格、就业综合发布：<https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965618.html>
+- 国家统计局 — 2026年9月规模以上工业增加值：<https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965617.html>
+- 国家统计局 — 2026年9月CPI：<https://www.stats.gov.cn/sj/zxfb/202610/t20261014_1965477.html>
+- 国家统计局/CFLP — 2026年10月PMI：<https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html>
+- 中国人民银行 — 2026年前三季度金融统计数据：<https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026101415422529740/index.html>
+- 中国人民银行 — 2026年9月LPR：<https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026092008384254324/index.html>
+- 海关总署 — 2026年9月进出口人民币值：<http://english.customs.gov.cn/Statics/22e23664-4ac7-4c03-80d8-27572ac63ff7.html>
+- 财政部 — 2026年前三季度财政收支：<http://m.mof.gov.cn/czxw/202610/t20261023_4003380.htm>
+- 司法部转载新华社 — 2026年7月30日政治局会议：<https://www.moj.gov.cn/pub/sfbgw/gwxw/ttxw/202607/t20260730_538040.html>
